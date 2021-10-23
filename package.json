@@ -1,15 +1,15 @@
 {
-  "name": "@craftions/craftions-base-app",
+  "name": "@craftions/url-shorter",
   "version": "1.0.0",
-  "description": "A base template for every craftions webapp",
+  "description": "The Craftions URL Shorter",
   "main": "server/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CraftionsMC/craftions-base"
+    "url": "https://github.com/CraftionsMC/url-shorter"
   },
-  "homepage": "https://github.com/CraftionsMC/craftions-base#readme",
+  "homepage": "https://github.com/CraftionsMC/url-shorter#readme",
   "bugs": {
-    "url": "https://github.com/CraftionsMC/craftions-base/issues"
+    "url": "https://github.com/CraftionsMC/url-shorter/issues"
   },
   "scripts": {
     "webpack:clean": "rm dist/bundle.js",
@@ -25,14 +25,16 @@
     "prettier:check": "prettier --check src",
     "prettier:write": "prettier --write src",
     "npm:deploy": "npm publish",
-    "docker:build": "docker build . -t\"mctzock/craftions-base\"",
-    "docker:deploy": "docker push mctzock/craftions-base",
-    "docker:run": "docker run -d --publish 8080:3000 --name craftions-base mctzock/craftions-base",
+    "docker:build": "docker build . -t\"mctzock/url-shorter\"",
+    "docker:deploy": "docker push mctzock/url-shorter",
+    "docker:run": "docker run -d --publish 8080:3000 --name url-shorter mctzock/url-shorter",
     "nodemon:start": "nodemon --config nodemon.json"
   },
   "author": "The Craftopns Developers",
   "license": "GPL-3.0-only",
   "dependencies": {
+    "@incodelang/accounts-client": "^1.0.11",
+    "@incodelang/urlshorter": "^1.0.2",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.26.0",

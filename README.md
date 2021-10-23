@@ -1,7 +1,7 @@
 
-# craftions-base
+# url-shorter
 
-This is the base of all craftions web apps.
+The Craftions URL Shorter
 
 
 ## Run Locally
@@ -9,13 +9,13 @@ This is the base of all craftions web apps.
 Clone the project
 
 ```bash
-  git clone https://github.com/CraftionsMC/craftions-base
+  git clone https://github.com/CraftionsMC/url-shorter
 ```
 
 Go to the project directory
 
 ```bash
-  cd craftions-base
+  cd url-shorter
 ```
 
 Install dependencies
