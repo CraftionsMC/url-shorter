@@ -50,6 +50,9 @@ export default function NavigationBar() {
           <Navbar.Item renderAs={Link} to={"/"}>
             Home
           </Navbar.Item>
+          <Navbar.Item renderAs={Link} to={"/my-links"}>
+            My Links
+          </Navbar.Item>
         </div>
         <div className={"navbar-end"}>
           <Navbar.Item>

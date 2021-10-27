@@ -6,7 +6,6 @@
 import * as React from "react";
 
 import { Footer as BulmaFooter } from "react-bulma-components";
-import { Link } from "react-router-dom";
 import "./Footer.scss";
 
 export default function Footer() {
@@ -15,13 +14,13 @@ export default function Footer() {
       <BulmaFooter
         style={{
           marginTop: "3rem",
-          marginBottom: "0",
+          marginBottom: "0"
         }}
       >
         <div className={"has-text-centered content"}>
           <p>
             Copyright © 2020-{new Date().getFullYear()}
-            <Link to={"/"}>&nbsp;Craftions</Link>
+            <a href={"https://craftions.net"} rel={"noreferrer"} target={"_blank"}>&nbsp;Craftions</a>
             . All rights reserved.
             <br />
             The website is licensed&nbsp;
