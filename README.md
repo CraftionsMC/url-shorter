@@ -3,6 +3,9 @@
 
 The Craftions URL Shorter
 
+## Demo
+
+The Live Demo can be found at [https://short.craftions.net](https://short.craftions.net)
 
 ## Run Locally
 
